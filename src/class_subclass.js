@@ -28,6 +28,7 @@ zooms()
 }
 Car.carsMade=0;
 var Zen=new Car(20);
+console.log(Reflect.getPrototypeOf(Zen));
 var B=new Benz(20);
 console.log(Zen.tell_speed());
 console.log(B.tell_speed());
